@@ -1,6 +1,7 @@
 main {
     background: beige;
     width: 80%;
+    min-width: 100vw;
     min-height: 100vh;
     float: left
 }
@@ -36,6 +37,7 @@ nav>ul>li>a:hover {
 
 
 footer {
+    padding: 15px;
     background: gray;
     text-align: center;
     width: 100%;
