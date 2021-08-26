@@ -9,93 +9,100 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">  
+        <link rel="stylesheet" href="css/style.css">
 </head>
-<style>
-    footer {
-        background: beige;
-    }
-</style>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Accueil</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">News</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <div class="main-container">
-
-        <h1 class="display-4 fst-italic-center my-4">Mon premier projet GIT/GITHUB</h1>
-
-    </div>
-    <div>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, laboriosam 
-        antium eveniet.
-        Perspiciatis porro saepe quas ab delectus nisi harum nulla? 
-        Reprehenderit voluptas dolorem provident vel illum, eveniet 
-        repudiandae aperiam culpa rerum quisquam repellat. Quo, saepe rerum? Corporis 
-        illo ipsam unde dicta.
-        At voluptatum perferendis voluptates deserunt id ipsam ab voluptatibus enim! 
-        Aut necessitatibus quidem aperiam quisquam sit voluptatibus. Recusandae odit et 
-        iure reiciendis, eveniet quo expedita quia natus saepe esse porro!
-        Placeat est tenetur id temporibus. Voluptatum reprehenderit distinctio eveniet at
-         molestias, illum amet doloremque quisquam voluptatibus repellendus velit officia
-          saepe quibusdam officiis molestiae excepturi eum odio placeat temporibus eos 
-          laboriosam?
-        Debitis, amet voluptates aliquid quibusdam et fugiat non odit dolores, aperiam 
-        provident eum dolorum, libero sit assumenda ipsam blanditiis! Omnis illo, iure eaque impedit voluptatum blanditiis ratione quis. Perspiciatis, autem.</p>
-    </div>
-
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="img/city1.jpg" class="d-block w-100" alt="ville 1">
-            </div>
-            <div class="carousel-item">
-                <img src="img/city2.jpg" class="d-block w-100" alt="ville 2">
-            </div>
-            <div class="carousel-item">
-                <img src="img/city3.jpg" class="d-block w-100" alt="ville 3">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
+    <header>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+                </li>
+            </ul>
+        </div>
     </div>
+</nav>
 
+    </header>
+    <div class="slide">
+         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+             <div class="carousel-indicators">
+                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                     aria-current="true" aria-label="Slide 1"></button>
+                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                     aria-label="Slide 2"></button>
+                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                     aria-label="Slide 3"></button>
+             </div>
+             <div class="carousel-inner">
+                 <div class="carousel-item active">
+                     <img src="img/city1.jpg" class="d-block w-100" alt="ville 1">
+                 </div>
+                 <div class="carousel-item">
+                     <img src="img/city2.jpg" class="d-block w-100" alt="ville 2">
+                 </div>
+                 <div class="carousel-item">
+                     <img src="img/city3.jpg" class="d-block w-100" alt="ville 3">
+                 </div>
+             </div>
+             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                 data-bs-slide="prev">
+                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                 <span class="visually-hidden">Previous</span>
+             </button>
+             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                 data-bs-slide="next">
+                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                 <span class="visually-hidden">Next</span>
+             </button>
+         </div>
+
+    </div>
+        <main>
+        <div class="main-container">
+
+            <h1 class="display-4 fst-italic-center my-4">Mon premier projet GIT/GITHUB</h1>
+
+        </div>
+        <div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, laboriosam
+                antium eveniet.
+                Perspiciatis porro saepe quas ab delectus nisi harum nulla?
+                Reprehenderit voluptas dolorem provident vel illum, eveniet
+                repudiandae aperiam culpa rerum quisquam repellat. Quo, saepe rerum? Corporis
+                illo ipsam unde dicta.
+                At voluptatum perferendis voluptates deserunt id ipsam ab voluptatibus enim!
+                Aut necessitatibus quidem aperiam quisquam sit voluptatibus. Recusandae odit et
+                iure reiciendis, eveniet quo expedita quia natus saepe esse porro!
+                Placeat est tenetur id temporibus. Voluptatum reprehenderit distinctio eveniet at
+                molestias, illum amet doloremque quisquam voluptatibus repellendus velit officia
+                saepe quibusdam officiis molestiae excepturi eum odio placeat temporibus eos
+                laboriosam?
+                Debitis, amet voluptates aliquid quibusdam et fugiat non odit dolores, aperiam
+                provident eum dolorum, libero sit assumenda ipsam blanditiis! Omnis illo, iure eaque impedit voluptatum
+                blanditiis ratione quis. Perspiciatis, autem.</p>
+        </div>
+    </main>
+    
+
+   
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
         integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous">
     </script>
