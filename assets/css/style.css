@@ -1,9 +1,38 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 main {
     background: beige;
     width: 80%;
     min-width: 100vw;
     min-height: 100vh;
     float: left
+}
+
+header h1 {
+    text-align: center;
+    background: yellow;  
+}
+
+.btn {
+    width: 50%;
+    background:#787878;
+    text-align: center;
+    text-decoration: none;
+    color: #ccc;
+    padding: 10px;
+    margin: 10px;
+    border-radius:20px;
+}
+
+.video {
+    min-width: 100vw;
+    min-height: 100vh;
+    padding: 50px;
 }
 
 header>nav {
